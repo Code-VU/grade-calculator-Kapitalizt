@@ -4,9 +4,9 @@ def calculateGrade():
 
     try:
         score = float(input("Enter score: "))
-        print("Calculating Grade")        
+#        print("Calculating Grade")        
     except: 
-        print("Calculating Grade")
+#        print("Calculating Grade")
         print('Bad score')
         quit()         
     if score > 0.0 and score < 1.0:
