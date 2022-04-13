@@ -1,11 +1,12 @@
 def calculateGrade():
     # Implement your solution in between the two comment blocks
-    print("Calculating Grade")
     # This first line is provided for you
 
     try:
-        score = float(input("Enter score: "))        
+        score = float(input("Enter score: "))
+        print("Calculating Grade")        
     except: 
+        print("Calculating Grade")
         print('Bad score')
         quit()
     
