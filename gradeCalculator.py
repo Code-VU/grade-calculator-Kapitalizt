@@ -7,23 +7,23 @@ def calculateGrade():
         print("Calculating Grade")        
     except: 
         print("Calculating Grade")
-        print('Bad score\n')
+        print('Bad score')
         quit()
     
     if score < 0 or score > 1:
-        print('Bad score\n')
+        print('Bad score')
         quit()
                 
     if score >= 0.9: 
-        print('A\n')
+        print('A')
     elif score >= 0.8: 
-        print('B\n')
+        print('B')
     elif score >= 0.7: 
-        print('C\n')
+        print('C')
     elif score >= 0.6: 
-        print('D\n')
+        print('D')
     elif score < 0.6: 
-        print('F\n')
+        print('F')
     # end assignment
 
 ## if you want to test locally before you try to sync
