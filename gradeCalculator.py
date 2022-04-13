@@ -29,4 +29,4 @@ def calculateGrade():
 ## uncomment calculateGrade() and run > python calculateGrade.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-calculateGrade()
+# calculateGrade()
